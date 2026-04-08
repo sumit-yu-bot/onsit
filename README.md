@@ -7,12 +7,10 @@ A powerful command-line interface for searching leaked data using the LeakOSINT 
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/leakosint-cli.git
-cd leakosint-cli
-
-# Install dependencies
+# In a different folder, test cloning:
+cd /tmp  # or C:\temp on Windows
+git clone https://github.com/sumit-yu-bot/onsit.git
+cd onsit
 pip install -r requirements.txt
-
-# Install the tool
 pip install -e .
+leakosint --help
